@@ -1,0 +1,5 @@
+
+3
+Protector Uther 100 2
+Caster Giana 50 10
+Fighter Malfurion 70 4

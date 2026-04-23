@@ -6,5 +6,5 @@ project(Mercenary)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(code test.cpp Role.cpp)
+add_executable(code test.cpp)
 

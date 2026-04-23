@@ -129,30 +129,6 @@ code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-Role.o: Role.cpp.o
-.PHONY : Role.o
-
-# target to build an object file
-Role.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Role.cpp.o
-.PHONY : Role.cpp.o
-
-Role.i: Role.cpp.i
-.PHONY : Role.i
-
-# target to preprocess a source file
-Role.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Role.cpp.i
-.PHONY : Role.cpp.i
-
-Role.s: Role.cpp.s
-.PHONY : Role.s
-
-# target to generate assembly for a file
-Role.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Role.cpp.s
-.PHONY : Role.cpp.s
-
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... code"
-	@echo "... Role.o"
-	@echo "... Role.i"
-	@echo "... Role.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
